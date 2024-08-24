@@ -1,0 +1,152 @@
+{
+  "core": {
+    "name": {
+      "givenName": "",
+      "familyName": "",
+      "middleName": "",
+      "formatted": "",
+      "honorificPrefix": "",
+      "honorificSuffix": ""
+    },
+    "userName": "",
+    "emails": [
+      {
+        "type": "home",
+        "value": ""
+      },
+      {
+        "type": "work",
+        "value": ""
+      },
+      {
+        "type": "other",
+        "value": ""
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "type": "mobile",
+        "value": ""
+      },
+      {
+        "type": "home",
+        "value": ""
+      },
+      {
+        "type": "work",
+        "value": ""
+      },
+      {
+        "type": "other",
+        "value": ""
+      },
+      {
+        "type": "pager",
+        "value": ""
+      },
+      {
+        "type": "fax",
+        "value": ""
+      }
+    ],
+    "externalId": "",
+    "active": "",
+    "addresses": [
+      {
+        "type": "home",
+        "locality": "",
+        "postalCode": "",
+        "region": "",
+        "streetAddress": "",
+        "country": "",
+        "formatted": ""
+      },
+      {
+        "type": "work",
+        "locality": "",
+        "postalCode": "",
+        "region": "",
+        "streetAddress": "",
+        "country": "",
+        "formatted": ""
+      },
+      {
+        "type": "other",
+        "locality": "",
+        "postalCode": "",
+        "region": "",
+        "streetAddress": "",
+        "country": "",
+        "formatted": ""
+      }
+    ],
+    "displayName": "",
+    "nickName": "",
+    "profileUrl": "",
+    "photos": [
+      {
+        "type": "photo",
+        "value": ""
+      },
+      {
+        "type": "thumbnail",
+        "value": ""
+      }
+    ],
+    "userType": "",
+    "title": "",
+    "preferredLanguage": "",
+    "locale": "",
+    "timezone": "",
+    "ims": [
+      {
+        "type": "aim",
+        "value": ""
+      },
+      {
+        "type": "gtalk",
+        "value": ""
+      },
+      {
+        "type": "icq",
+        "value": ""
+      },
+      {
+        "type": "xmpp",
+        "value": ""
+      },
+      {
+        "type": "msn",
+        "value": ""
+      },
+      {
+        "type": "skype",
+        "value": ""
+      },
+      {
+        "type": "qq",
+        "value": ""
+      },
+      {
+        "type": "yahoo",
+        "value": ""
+      },
+      {
+        "type": "other",
+        "value": ""
+      }
+    ]
+  },
+  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+    "manager": {
+      "displayName": "",
+      "value": "",
+      "$ref": ""
+    },
+    "employeeNumber": "",
+    "costCenter": "",
+    "organization": "",
+    "division": "",
+    "department": ""
+  }
+}

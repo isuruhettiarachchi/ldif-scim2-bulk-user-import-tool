@@ -1,0 +1,78 @@
+{
+  "core": {
+    "userName": "userName",
+    "firstName": "name.givenName",
+    "lastName": "name.familyName",
+    "middleName": "name.middleName",
+    "formattedName": "name.formatted",
+    "honorificPrefix": "name.honorificPrefix",
+    "honorificSuffix": "name.honorificSuffix",
+    "externalId": "externalId",
+    "active": "active",
+
+    "homeEmail": "emails#home.value",
+    "workEmail": "emails#work.value",
+    "otherEmail": "emails#other.value",
+
+    "mobilePhoneNumber": "phoneNumbers#mobile.value",
+    "homePhoneNumber": "phoneNumbers#home.value",
+    "workPhoneNumber": "phoneNumbers#work.value",
+    "otherPhoneNumber": "phoneNumbers#other.value",
+    "pagerPhoneNumber": "phoneNumbers#pager.value",
+    "faxPhoneNumber": "phoneNumbers#fax.value",
+
+    "homeAddressLocality": "addresses#home.locality",
+    "homeAddressPostalCode": "addresses#home.postalCode",
+    "homeAddressRegion": "addresses#home.region",
+    "homeAddressStreetAddress": "addresses#home.streetAddress",
+    "homeAddressCountry": "addresses#home.country",
+    "homeAddressFormatted": "addresses#home.formatted",
+
+    "workAddressLocality": "addresses#work.locality",
+    "workAddressPostalCode": "addresses#work.postalCode",
+    "workAddressRegion": "addresses#work.region",
+    "workAddressStreetAddress": "addresses#work.streetAddress",
+    "workAddressCountry": "addresses#work.country",
+    "workAddressFormatted": "addresses#work.formatted",
+
+    "otherAddressLocality": "addresses#other.locality",
+    "otherAddressPostalCode": "addresses#other.postalCode",
+    "otherAddressRegion": "addresses#other.region",
+    "otherAddressStreetAddress": "addresses#other.streetAddress",
+    "otherAddressCountry": "addresses#other.country",
+    "otherAddressFormatted": "addresses#other.formatted",
+
+    "displayName": "displayName",
+    "nickName": "nickName",
+    "profileUrl": "profileUrl",
+    "locale": "locale",
+    "userType": "userType",
+    "title": "title",
+    "preferredLanguage": "preferredLanguage",
+    "timezone": "timezone",
+
+    "photoThumbnailUrl": "photos#thumbnail.value",
+    "photoUrl": "photos#photo.value",
+
+    "imsAIM": "ims#aim.value",
+    "imsGTalk": "ims#gtalk.value",
+    "imsICQ": "ims#icq.value",
+    "imsXMPP": "ims#xmpp.value",
+    "imsMSN": "ims#msn.value",
+    "imsSkype": "ims#skype.value",
+    "imsQQ": "ims#qq.value",
+    "imsYahoo": "ims#yahoo.value",
+    "imsOther": "ims#other.value"
+  },
+
+  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+    "managerDisplayName": "manager.displayName",
+    "managerValue": "manager.value",
+    "managerRef": "manager.$ref",
+    "employeeNumber": "employeeNumber",
+    "costCenter": "costCenter",
+    "organization": "organization",
+    "division": "division",
+    "department": "department"
+  }
+}

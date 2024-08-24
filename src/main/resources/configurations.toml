@@ -1,0 +1,24 @@
+[server]
+host="localhost:9443"
+
+[user_store]
+name="MYSQL"
+remove_alg_from_password=true
+password_alg="{SHA512}"
+
+[ldap]
+user_object="InetOrgPerson"
+
+[system]
+ldif_file_path="~/export_users_SHA512.ldif"
+continue_on_error=true
+
+[attribute_mapping]
+userName="cn"
+firstName="givenName"
+lastName="familyName"
+mobilePhoneNumber="mobile"
+primaryEmail="mail"
+password="userPassword"
+#keys are the attributes defined in the internal-attribute-mappings
+#values are the attribute keys in ldif file
